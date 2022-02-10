@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #5288F2;
+}
+
+#text-div {
+  position: fixed;
+  top: 1rem;
+  width: 100%;
+}
+
+#grass-div {
+  position: fixed;
+  bottom: -1rem;
+  width: 100%;
+  height: 75%;
+  background-image: url("./grass.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#grass-div:hover {
+  cursor: -webkit-grab;
+}
+
+h1 {
+  opacity: 30%;
+  /*color: lightgreen;*/
+  color: white;
+  text-align: center;
+}
